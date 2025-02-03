@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     body {
         font-size: 14px; /* Kleinere Schriftgröße für mobile Geräte */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     body.dark-mode {
