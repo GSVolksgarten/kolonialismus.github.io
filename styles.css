@@ -1,115 +1,121 @@
+/* Standardmäßig Dark Mode */
+body {
+    background: radial-gradient(circle at 20% 20%, rgba(255, 20, 147, 0.5), rgba(0, 0, 0, 0.5) 60%),
+                radial-gradient(circle at 80% 20%, rgba(0, 123, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
+                radial-gradient(circle at 40% 80%, rgba(0, 191, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
+                rgba(30, 30, 30, 1); /* Dark Mode als Standard */
+    color: white; /* Schriftfarbe im Dark Mode auf Weiß setzen */
+}
+
+/* Light Mode, wenn aktiviert */
+body.light-mode {
+    background: white;
+    color: black;
+}
+
 /* Allgemeine Anpassungen für mobile Geräte */
 @media (max-width: 768px) {
     body {
         font-size: 14px; /* Kleinere Schriftgröße für mobile Geräte */
-        color: white; /* Schriftfarbe auf Weiß ändern */
-    }
-
-    body.dark-mode {
-        background: radial-gradient(circle at 20% 20%, rgba(255, 20, 147, 0.5), rgba(0, 0, 0, 0.5) 60%),
-                    radial-gradient(circle at 80% 20%, rgba(0, 123, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
-                    radial-gradient(circle at 40% 80%, rgba(0, 191, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
-                    rgba(30, 30, 30, 1); /* Hintergrundverlauf beibehalten */
-        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     header {
-        flex-direction: column; /* Elemente im Header untereinander anordnen */
+        flex-direction: column;
         padding: 10px;
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        color: inherit;
     }
 
     nav {
-        width: 100%; /* Nav auf volle Breite setzen */
+        width: 100%;
         margin-right: 0;
         margin-bottom: 10px;
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        color: inherit;
     }
 
     #darkModeToggle {
-        margin-top: 10px; /* Abstand nach oben */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        margin-top: 10px;
+        color: inherit;
     }
 
     .intro {
-        min-height: 60vh; /* Höhe reduzieren */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        min-height: 60vh;
+        color: inherit;
     }
 
     .intro-content {
-        margin-top: 0; /* Abstand nach oben entfernen */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        margin-top: 0;
+        color: inherit;
     }
 
     .intro-text h2 {
-        font-size: 1.8em; /* Kleinere Überschrift */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        font-size: 1.8em;
+        color: inherit;
     }
 
     .profile-info {
-        width: 90%; /* Breite reduzieren */
-        font-size: large; /* Kleinere Schriftgröße */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        width: 90%;
+        font-size: large;
+        color: inherit;
     }
 
     .box1 {
-        flex-direction: column; /* Bild und Text untereinander anordnen */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        flex-direction: column;
+        color: inherit;
     }
 
     .image1 {
-        width: 80%; /* Bildbreite anpassen */
+        width: 80%;
         margin-top: 20px;
         margin-right: 0;
     }
 
     .outside-topic-section {
-        flex-direction: column; /* Bild und Text untereinander anordnen */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        flex-direction: column;
+        color: inherit;
     }
 
     .outside-image {
-        width: 80%; /* Bildbreite anpassen */
+        width: 80%;
         margin-top: 20px;
     }
 
     .plea-section {
-        padding: 30px 10px; /* Padding reduzieren */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        padding: 30px 10px;
+        color: inherit;
     }
 
     .plea-section h2 {
-        font-size: 1.8em; /* Kleinere Überschrift */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        font-size: 1.8em;
+        color: inherit;
     }
 
     .plea-section .plea-content {
-        font-size: 1em; /* Kleinere Schriftgröße */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        font-size: 1em;
+        color: inherit;
     }
 
     #contact {
-        padding: 1rem; /* Padding reduzieren */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        padding: 1rem;
+        color: inherit;
     }
 
     #contact h2 {
-        font-size: 1.5em; /* Kleinere Überschrift */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        font-size: 1.5em;
+        color: inherit;
     }
 
     #contact p {
-        font-size: 1em; /* Kleinere Schriftgröße */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        font-size: 1em;
+        color: inherit;
     }
 
     .footer {
-        padding: 10px 0; /* Padding reduzieren */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        padding: 10px 0;
+        color: inherit;
     }
 
     .footer-content {
-        font-size: 0.8em; /* Kleinere Schriftgröße */
-        color: white; /* Schriftfarbe auf Weiß ändern */
+        font-size: 0.8em;
+        color: inherit;
     }
 }
