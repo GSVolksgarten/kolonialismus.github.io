@@ -3,7 +3,7 @@ body {
     background: radial-gradient(circle at 20% 20%, rgba(255, 20, 147, 0.5), rgba(0, 0, 0, 0.5) 60%),
                 radial-gradient(circle at 80% 20%, rgba(0, 123, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
                 radial-gradient(circle at 40% 80%, rgba(0, 191, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
-                rgba(30, 30, 30, 1); /* Dark Mode als Standard */
+                rgba(30, 30, 30, 1); /* Hintergrund bleibt unverändert */
     color: white; /* Schriftfarbe im Dark Mode auf Weiß setzen */
 }
 
@@ -16,7 +16,7 @@ body.light-mode {
 /* Allgemeine Anpassungen für mobile Geräte */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Kleinere Schriftgröße für mobile Geräte */
+        font-size: 14px;
     }
 
     header {
