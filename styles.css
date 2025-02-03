@@ -10,42 +10,51 @@
                     radial-gradient(circle at 80% 20%, rgba(0, 123, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
                     radial-gradient(circle at 40% 80%, rgba(0, 191, 255, 0.5), rgba(0, 0, 0, 0.5) 60%),
                     rgba(30, 30, 30, 1); /* Hintergrundverlauf beibehalten */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     header {
         flex-direction: column; /* Elemente im Header untereinander anordnen */
         padding: 10px;
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     nav {
         width: 100%; /* Nav auf volle Breite setzen */
         margin-right: 0;
         margin-bottom: 10px;
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     #darkModeToggle {
         margin-top: 10px; /* Abstand nach oben */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .intro {
         min-height: 60vh; /* Höhe reduzieren */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .intro-content {
         margin-top: 0; /* Abstand nach oben entfernen */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .intro-text h2 {
         font-size: 1.8em; /* Kleinere Überschrift */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .profile-info {
         width: 90%; /* Breite reduzieren */
         font-size: large; /* Kleinere Schriftgröße */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .box1 {
         flex-direction: column; /* Bild und Text untereinander anordnen */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .image1 {
@@ -56,6 +65,7 @@
 
     .outside-topic-section {
         flex-direction: column; /* Bild und Text untereinander anordnen */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .outside-image {
@@ -65,33 +75,41 @@
 
     .plea-section {
         padding: 30px 10px; /* Padding reduzieren */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .plea-section h2 {
         font-size: 1.8em; /* Kleinere Überschrift */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .plea-section .plea-content {
         font-size: 1em; /* Kleinere Schriftgröße */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     #contact {
         padding: 1rem; /* Padding reduzieren */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     #contact h2 {
         font-size: 1.5em; /* Kleinere Überschrift */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     #contact p {
         font-size: 1em; /* Kleinere Schriftgröße */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .footer {
         padding: 10px 0; /* Padding reduzieren */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 
     .footer-content {
         font-size: 0.8em; /* Kleinere Schriftgröße */
+        color: white; /* Schriftfarbe auf Weiß ändern */
     }
 }
